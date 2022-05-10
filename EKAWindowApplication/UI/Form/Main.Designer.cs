@@ -66,10 +66,10 @@
             this.lblUserDetails,
             this.commandBarSeparator1,
             this.btnExit});
-            this.radStatusStrip1.Location = new System.Drawing.Point(0, 835);
+            this.radStatusStrip1.Location = new System.Drawing.Point(0, 833);
             this.radStatusStrip1.Margin = new System.Windows.Forms.Padding(6);
             this.radStatusStrip1.Name = "radStatusStrip1";
-            this.radStatusStrip1.Size = new System.Drawing.Size(1046, 40);
+            this.radStatusStrip1.Size = new System.Drawing.Size(1046, 42);
             this.radStatusStrip1.SizingGrip = false;
             this.radStatusStrip1.TabIndex = 1;
             this.radStatusStrip1.Text = "radStatusStrip1";
@@ -109,7 +109,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 258);
             this.panel1.Margin = new System.Windows.Forms.Padding(6);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1046, 577);
+            this.panel1.Size = new System.Drawing.Size(1046, 575);
             this.panel1.TabIndex = 2;
             // 
             // radPageView1
@@ -119,7 +119,7 @@
             this.radPageView1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.radPageView1.Name = "radPageView1";
             this.radPageView1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.radPageView1.Size = new System.Drawing.Size(1046, 577);
+            this.radPageView1.Size = new System.Drawing.Size(1046, 575);
             this.radPageView1.TabIndex = 0;
             this.radPageView1.Text = "radPageView1";
             ((Telerik.WinControls.UI.RadPageViewStripElement)(this.radPageView1.GetChildAt(0))).ShowItemCloseButton = true;
@@ -167,12 +167,13 @@
             // ribbonTab1
             // 
             this.ribbonTab1.Alignment = System.Drawing.ContentAlignment.TopLeft;
-            this.ribbonTab1.IsSelected = false;
+            this.ribbonTab1.IsSelected = true;
             this.ribbonTab1.Items.AddRange(new Telerik.WinControls.RadItem[] {
             this.radRibbonBarGroup1,
             this.radRibbonBarGroup2});
             this.ribbonTab1.Name = "ribbonTab1";
             this.ribbonTab1.RightToLeft = false;
+            this.ribbonTab1.Tag = "Dashboard";
             this.ribbonTab1.Text = "Dashboard";
             this.ribbonTab1.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -315,7 +316,7 @@
             // 
             // ribbonTab3
             // 
-            this.ribbonTab3.IsSelected = true;
+            this.ribbonTab3.IsSelected = false;
             this.ribbonTab3.Items.AddRange(new Telerik.WinControls.RadItem[] {
             this.radRibbonBarGroup5});
             this.ribbonTab3.Name = "ribbonTab3";

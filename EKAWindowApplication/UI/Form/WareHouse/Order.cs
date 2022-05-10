@@ -61,7 +61,8 @@ namespace EKAWindowApplication.UI.Form.WareHouse
                     r.Material.Qty,
                     UnitName = r.Material.MaterialGroup.Unit.Name,
                     ActorName = r.User.FirstName + " " + r.User.LastName,
-                    DateTime = PersianDate.ConvertDate.ToFaWithTime(r.DateTime)
+                    DateTime = r.DateTime
+                    //DateTime = PersianDate.ConvertDate.ToFaWithTime(r.DateTime)
 
                 }).OrderByDescending(u => u.DateTime).Take(100).ToList();
             rgvList.BestFitColumns();

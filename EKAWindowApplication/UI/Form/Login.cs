@@ -34,7 +34,7 @@ namespace EKAWindowApplication.UI.Form
                     break;
                 case ResultStatus.NotFound:
                     lblResult.ForeColor = Color.Red;
-                    lblResult.Text = @"The username / password entered is not be valid";
+                    lblResult.Text = @"The username/password entered is not valid";
                     break;
                 case ResultStatus.AccessFail:
                     lblResult.ForeColor = Color.DarkOrange;
@@ -42,7 +42,7 @@ namespace EKAWindowApplication.UI.Form
                     break;
                 default:
                     lblResult.ForeColor = Color.Black;
-                    lblResult.Text = @"There was a problem, please contact with IT support group";
+                    lblResult.Text = @"There was a problem, contact with IT group";
                     break;
 
             }
